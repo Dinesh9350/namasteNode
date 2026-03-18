@@ -1,0 +1,48 @@
+#Season 1 🔥
+Episode-00 - Welcome to NamasteNodeJS
+Episode-01 - Introduction to NodeJS
+Episode-02 - JS on Server
+Episode-03 - Let's write code
+Episode-04 - module-export & require
+Episode-05 - Diving into the NodeJS github repo
+Episode-06 - libuv & async IO
+Episode-07 - sync, async, setTimeoutZero - code
+Episode-08 - Deep dive into v8 JS Engine
+Episode-09 - libuv & Event Loop
+Episode-10 - Thread pool in libuv
+Episode-11 - Creating a Server
+Episode-12 - Databases - SQL & NoSQL
+Episode-13 - Creating a database and mongodb
+
+#Season 2 🔥
+E1 - Microservices vs Monolith - How to Build a Project ✅
+E2 - Features, HLD, LLD & Planning ✅
+E3 - Creating our Express Server ✅
+E4 - Routing and Request Handlers
+E5 - Middlewares & Error Handlers
+E6 - Database, Schema & Models - Mongoose
+E7 - Diving into the APIs
+E8 - Data Sanitization & Schema Validations
+E9 - Encrypting Passwords
+E10 - Authentication, JWT & Cookies
+E11 - Diving into the APIs and express Router
+E12 - Logical DB Query & Compound Indexes
+E13 - ref, Populate & Thought process of writing APIs
+E14 - Building Feed API & Pagination
+E15 - DevTinder UI - Part 1
+E16 - DevTinder UI - Part 2
+E17 - DevTinder UI - Part 3
+E18 - DevTinder UI - Part 4
+E19 - DevTinder UI - Part 5
+
+#Season 3 🔥
+Episode-01 - Launching a AWS Instance and deploying frontend
+Episode-02 - Nginx & Backend Node App Deployment
+Episode-03 - Adding a Custom Domain Name
+Episode-04 - Sending Emails using Amazon SES
+Episode-05 - Keeping Our Credentials Safe Using dotenv Files
+Episode-06 - Scheduling Cron Jobs
+Episode-07 - Payment Gateway Integration ft Razorpay
+Episode-08 - Web Sockets & socket.io
+Episode-09 - Building Real-time Live Chat Feature
+Update nginx config

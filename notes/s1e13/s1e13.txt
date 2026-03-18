@@ -1,0 +1,14 @@
+//S1E13 - Creating a Db and Mongodb
+1. open mongodb atlas chrome
+2. npm i mongodb
+3. add connection URI in database.js
+4. using new MongoClient(URI) create a client 
+5. do client.connect() to connect make connection
+6. set db and collection
+   const db = client.db(dbName);
+   const collection = db.collection("User");
+7. insert and find data
+await collection.insertMany([data]); 
+await collection.find({}).toArray();
+
+
