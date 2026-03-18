@@ -1,3 +1,8 @@
 ##S2E4 - Routing and Request Handlers
 
+//git
+git init
+add .gitignore
+push code in git
+
 
