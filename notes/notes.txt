@@ -15,25 +15,25 @@ Episode-12 - Databases - SQL & NoSQL
 Episode-13 - Creating a database and mongodb
 
 #Season 2 🔥
-E1 - Microservices vs Monolith - How to Build a Project ✅
-E2 - Features, HLD, LLD & Planning ✅
-E3 - Creating our Express Server ✅
-E4 - Routing and Request Handlers
-E5 - Middlewares & Error Handlers
-E6 - Database, Schema & Models - Mongoose
-E7 - Diving into the APIs
-E8 - Data Sanitization & Schema Validations
-E9 - Encrypting Passwords
-E10 - Authentication, JWT & Cookies
-E11 - Diving into the APIs and express Router
-E12 - Logical DB Query & Compound Indexes
-E13 - ref, Populate & Thought process of writing APIs
-E14 - Building Feed API & Pagination
-E15 - DevTinder UI - Part 1
-E16 - DevTinder UI - Part 2
-E17 - DevTinder UI - Part 3
-E18 - DevTinder UI - Part 4
-E19 - DevTinder UI - Part 5
+Episode-01 - Microservices vs Monolith - How to Build a Project ✅
+Episode-02 - Features, HLD, LLD & Planning ✅
+Episode-03 - Creating our Express Server ✅
+Episode-04 - Routing and Request Handlers ✅
+Episode-05 - Middlewares & Error Handlers ✅
+Episode-06 - Database, Schema & Models - Mongoose
+Episode-07 - Diving into the APIs
+Episode-08 - Data Sanitization & Schema Validations
+Episode-09 - Encrypting Passwords
+Episode-10 - Authentication, JWT & Cookies
+Episode-11 - Diving into the APIs and express Router
+Episode-12 - Logical DB Query & Compound Indexes
+Episode-13 - ref, Populate & Thought process of writing APIs
+Episode-14 - Building Feed API & Pagination
+Episode-15 - DevTinder UI - Part 1
+Episode-16 - DevTinder UI - Part 2
+Episode-17 - DevTinder UI - Part 3
+Episode-18 - DevTinder UI - Part 4
+Episode-19 - DevTinder UI - Part 5
 
 #Season 3 🔥
 Episode-01 - Launching a AWS Instance and deploying frontend
