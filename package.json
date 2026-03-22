@@ -2,12 +2,12 @@
   "dependencies": {
     "express": "^5.2.1",
     "mongodb": "^7.1.0",
+    "mongoose": "^9.3.1",
     "nodemon": "^3.1.14"
   },
   "name": "namastenode",
   "version": "1.0.0",
   "main": "database.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js"
