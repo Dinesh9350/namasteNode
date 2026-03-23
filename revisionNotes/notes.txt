@@ -22,8 +22,8 @@ Episode-04 - Routing and Request Handlers ✅
 Episode-05 - Middlewares & Error Handlers ✅
 Episode-06 - Database, Schema & Models - Mongoose ✅
 Episode-07 - Diving into the APIs ✅
-Episode-08 - Data Sanitization & Schema Validations ❌
-Episode-09 - Encrypting Passwords ❌
+Episode-08 - Data Sanitization & Schema Validations ✅
+Episode-09 - Encrypting Passwords ✅
 Episode-10 - Authentication, JWT & Cookies ❌
 Episode-11 - Diving into the APIs and express Router ❌
 Episode-12 - Logical DB Query & Compound Indexes ❌
