@@ -7,7 +7,7 @@ MongoDb Cluster, Compass
 src > config > database.js
 
 mongoose to create schema, models
-npm i mongoose
+`npm i mongoose`
 
 ```js
 // database.js

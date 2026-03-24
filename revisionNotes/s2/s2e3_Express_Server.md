@@ -2,8 +2,8 @@
 
 # ⚡ Quick Revision (Very Important)
 
-- npm init → initialize project
-- npm i express → install express
+- `npm init` → initialize project
+- `npm i express` → install express
 - node src/app.js → run server
 - nodemon → auto restart server
 - package.json → manages dependencies
@@ -14,13 +14,13 @@
 ++++++++++++++++++++++++++++++++++
 
 pre:-
-npm i mongodb
+`npm i mongodb`
 
-1. npm init
+1. `npm init`
 2. create SRC -> app.js
 3. node src/app.js
 
-npm i express
+`npm i express`
 
 when we do npm i it install an dependency in node_modules
 ^ - allows Minor + patch updates
@@ -54,7 +54,7 @@ node src/app.js,
 currently i need to use it command again and again to run the updated code.
 To make it running we use nodemon
 
-- npm i nodemon
+- `npm i nodemon`
   now:
   nodemon src/app.js
 
