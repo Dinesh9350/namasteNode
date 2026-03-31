@@ -4,10 +4,12 @@ const connectionRequestSchema = new mongoose.Schema(
   {
     fromUserId: {
       type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
       required: true,
     },
     toUserId: {
       type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
       required: true,
     },
     status: {
@@ -24,8 +26,7 @@ const connectionRequestSchema = new mongoose.Schema(
 
 //compound index
 //1 means Ascending, -1 means Descending
-connectionRequestSchema.index({fromUserId: 1, toUserId: 1})
-
+connectionRequestSchema.index({ fromUserId: 1, toUserId: 1 });
 
 //sending connection request to myself    Schema -> middleware
 //connectionRequestSchema.save(), it'll be callled before this save

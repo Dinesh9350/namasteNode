@@ -72,11 +72,11 @@ requestRouter.post(
     try {
       //sending a connection request
       const loggedInUser = req.user;
-      const toUserId = req.user._id;
-      const { status } = req.params.status;
-      const fromUserId = req.params.requestId;
+      const loggedInUserId = req.user._id;
+      const status = req.params.status;
+      const requestId = req.params.requestId;
 
-      console.log("toUserId", toUserId);
+      console.log("status", status);
 
       const allowedStatuses = ["accepted", "rejected"];
       //loggedInUser === toUserId
@@ -94,12 +94,17 @@ requestRouter.post(
         throw new Error("fromUserId not found");
       }
 
+      console.log("requestId", requestId);
+      console.log("loggedInUser._id", loggedInUser._id);
+
       //check if there is any existing connection request
       const interestedConnectionRequest = await ConnectionRequestModel.findOne({
-        _id: requestId,
-        toUserId: loggedInUser,
+        fromUserId: requestId,
+        toUserId: loggedInUserId,
         status: "interested",
       });
+
+      console.log("interestedConnectionRequest: ", interestedConnectionRequest);
 
       if (!interestedConnectionRequest) {
         throw new Error("Connection Request Not Found!");
