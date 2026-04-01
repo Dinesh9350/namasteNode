@@ -29,7 +29,7 @@ Episode-11 - Diving into the APIs and express Router ✅
 Episode-12 - Logical DB Query & Compound Indexes ✅
 Episode-13 - ref, Populate & Thought process of writing APIs ✅
 Episode-14 - Building Feed API & Pagination ✅
-Episode-15 - DevTinder UI - Part 1 ❌
+Episode-15 - DevTinder UI - Part 1 ✅
 Episode-16 - DevTinder UI - Part 2 ❌
 Episode-17 - DevTinder UI - Part 3 ❌
 Episode-18 - DevTinder UI - Part 4 ❌
