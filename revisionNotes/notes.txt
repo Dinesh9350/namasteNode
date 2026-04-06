@@ -40,11 +40,11 @@ Episode-19 - DevTinder UI - Part 5 ✅
 
 #Season 3 🔥
 Episode-01 - Launching a AWS Instance and deploying frontend ✅
-Episode-02 - Nginx & Backend Node App Deployment ❌
-Episode-03 - Adding a Custom Domain Name ❌
-Episode-04 - Sending Emails using Amazon SES ❌
-Episode-05 - Keeping Our Credentials Safe Using dotenv Files ❌
-Episode-06 - Scheduling Cron Jobs ❌
+Episode-02 - Nginx & Backend Node App Deployment ✅
+Episode-03 - Adding a Custom Domain Name ✅
+Episode-04 - Sending Emails using Amazon SES ✅
+Episode-05 - Keeping Our Credentials Safe Using dotenv Files ✅
+Episode-06 - Scheduling Cron Jobs  ✅
 Episode-07 - Payment Gateway Integration ft Razorpay ❌
 Episode-08 - Web Sockets & socket.ion ❌
 Episode-09 - Building Real-time Live Chat Feature ❌

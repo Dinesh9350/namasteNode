@@ -9,6 +9,7 @@ const { Model } = require("mongoose");
 const cookieParser = require("cookie-parser");
 const jwt = require("jsonwebtoken");
 const { UserAuth } = require("./middlewares/auth.js");
+require('dotenv').config()
 
 const app = express();
 app.use(
@@ -34,7 +35,7 @@ connectDB()
   .then(() => {
     console.log("DB connection established!");
     app.listen(4000, () => {
-      console.log("server is runnning at PORT " + 4000);
+      console.log("server is runnning at PORT " + process.env.PORT);
     });
   })
   .catch((err) => {
