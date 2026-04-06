@@ -34,15 +34,40 @@ DB_CONNECTION_SECRET =
   "mongodb+srv://dinesh:ustV3f0aw042V3HJ@cluster0.l8wsd6i.mongodb.net/DevTinder";
 JWT_SECRET = "dev@Tinder$444";
 ```
+
 update code based on env
 
-
-===========================
-
 Frontend
+
 ```js
 //constants.js
 export const BASE_URL =
   location.hostname === "localhost" ? "http://localhost:5173" : "/api";
 ```
+
 for running on both server and local
+check everything is working fine on local
+add .env in gitIgnore
+git push
+
+===========================
+Frontend deployment
+ssh -i "devtinder-securekey.pem" ubuntu@ec2-3-238-131-227.compute-1.amazonaws.com
+cd devTinderWeb
+git pull
+npm run build
+sudo scp -r dist/\* /var/www/html/
+
+===========================
+Backend deployment
+cd ../namasteNode
+git pull
+npm run build
+
+remove "" from .env
+npm i
+
+pm2 restart "devtinder-backend"
+will get error in the aws hosted app because there is no .env
+
+sudo nano .env -> paste env

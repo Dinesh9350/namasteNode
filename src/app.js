@@ -9,7 +9,8 @@ const { Model } = require("mongoose");
 const cookieParser = require("cookie-parser");
 const jwt = require("jsonwebtoken");
 const { UserAuth } = require("./middlewares/auth.js");
-require('dotenv').config()
+require("dotenv").config();
+require("./utils/cronjob.js");
 
 const app = express();
 app.use(
