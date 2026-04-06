@@ -1,3 +1,6 @@
+Good Resource for Revision:
+https://namaste-nodejs.vercel.app/chapters/01-introduction-to-nodejs
+
 #Season 1 🔥 
 Episode-00 - Welcome to NamasteNodeJS 
 Episode-01 - Introduction to NodeJS
@@ -30,13 +33,13 @@ Episode-12 - Logical DB Query & Compound Indexes ✅
 Episode-13 - ref, Populate & Thought process of writing APIs ✅
 Episode-14 - Building Feed API & Pagination ✅
 Episode-15 - DevTinder UI - Part 1 ✅
-Episode-16 - DevTinder UI - Part 2 ❌
-Episode-17 - DevTinder UI - Part 3 ❌
-Episode-18 - DevTinder UI - Part 4 ❌
-Episode-19 - DevTinder UI - Part 5 ❌
+Episode-16 - DevTinder UI - Part 2 ✅
+Episode-17 - DevTinder UI - Part 3 ✅
+Episode-18 - DevTinder UI - Part 4 ✅
+Episode-19 - DevTinder UI - Part 5 ✅
 
 #Season 3 🔥
-Episode-01 - Launching a AWS Instance and deploying frontend ❌
+Episode-01 - Launching a AWS Instance and deploying frontend ✅
 Episode-02 - Nginx & Backend Node App Deployment ❌
 Episode-03 - Adding a Custom Domain Name ❌
 Episode-04 - Sending Emails using Amazon SES ❌

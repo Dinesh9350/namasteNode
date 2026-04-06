@@ -26,7 +26,7 @@ const validateProfileEditData = (req) => {
     throw new Error("PhotoUrl is not Valid");
   } else if (about && about.length > 100) {
     throw new Error("About, only 100 character are allowed");
-  } else if (skills & (skills.length > 5)) {
+  } else if (skills && Array.isArray(skills) && skills.length > 5) {
     throw new Error("skills, only 5 skills are allowed");
   }
 
