@@ -12,9 +12,11 @@ DB cannot be connected! (because password changed)
 generate a new password
 mogdb atlas -> db access -> edit -> autogenerate password
 database.js change password
+git push
 
 in terminal:
 cd namasteNode
+git pull
 npm i
 npm run start
 DB cannot be connected!
