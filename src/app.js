@@ -8,6 +8,7 @@ const User = require("../src/models/user.js");
 const { Model } = require("mongoose");
 const cookieParser = require("cookie-parser");
 const jwt = require("jsonwebtoken");
+const http = require("http");
 const { UserAuth } = require("./middlewares/auth.js");
 require("dotenv").config();
 require("./utils/cronjob.js");
@@ -26,16 +27,22 @@ const authRouter = require("./routes/auth.js");
 const profileRouter = require("./routes/profile.js");
 const requestRouter = require("./routes/request.js");
 const userRouter = require("./routes/user.js");
+const chatRouter = require("./routes/chat.js");
+const initializeSocket = require("./utils/socket.js");
 
 app.use("/", authRouter);
 app.use("/", profileRouter);
 app.use("/", requestRouter);
 app.use("/", userRouter);
+app.use("/", chatRouter);
+
+const server = http.createServer(app);
+initializeSocket(server);
 
 connectDB()
   .then(() => {
     console.log("DB connection established!");
-    app.listen(4000, () => {
+    server.listen(4000, () => {
       console.log("server is runnning at PORT " + process.env.PORT);
     });
   })
