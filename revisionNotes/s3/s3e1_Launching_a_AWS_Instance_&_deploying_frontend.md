@@ -43,7 +43,8 @@ Machine setup
   cd /var/www/html/
   cd (going out from everywhere)
   cd devTinderWeb
-  sudo scp -r dist/* /var/www/html/
+  
+  
   cd /var/www/html/
   ls
 

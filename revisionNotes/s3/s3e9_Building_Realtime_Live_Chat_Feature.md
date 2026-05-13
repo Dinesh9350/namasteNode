@@ -116,15 +116,22 @@ import { io } from "socket.io-client";
 import { BASE_URL } from "./constants";
 
 export const createSocketConnection = () => {
-  if (location.hostname === "localhost") {
-    return io(BASE_URL);
-  } else {
-    return io("/", { path: "/api/socket.io" });
-  }
+if (location.hostname === "localhost") {
+return io(BASE_URL);
+} else {
+return io("/", { path: "/api/socket.io" });
+}
 };
 
+to make socket work on server
+ssh
+cd devtinderWeb
+npm i
+sudo scp -r dist/\* /var/www/html/
 
-to make it work on server
+cd namastenode
+npm i
+pm2 restart 0
 
 Home work:
 Auth in Socket.io
